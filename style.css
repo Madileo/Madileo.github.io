@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* { margin: 0; padding: 0; box-sizing: border-box; } 
+
+
+body { background-image: url(imagens/nuvens.jpg); } 
+
+
+#Conteiner { width: 100%; padding: 0 10%; max-width: 1500px; min-width: 300px; background: url(imagens/nuvens.jpg); } 
+
+header {height: 200px; background-color: black; } 
+
+
+.TextoCabecalho {font-family: Arial Black, Serif; font-size: 24pt; color: white;} 
+
+
+#Texto {display: inline-block; position: relative; bottom: 50px; text-align: center; padding-left: 50px; } 
+
+
+header img#MinhaFoto {display: inline-block;} 
+
+
+nav {background-color: #8383f1;} 
+
+
+ul li.ItemListaMenu {display: inline; text-decoration: none; height: 5px; } 
+
+ul li.ItemListaMenu:hover {background-color: red;} 
+
+ul li.ItemListaMenu a {text-decoration: none; color: black; font-family: serif; padding: 0 7%;} 
+section {background-color: #b5b5b5; padding: 10px 35px;} 
+
+
+footer {background-color: #8383f1; padding: 70px 0; text-align: center;} 
+
+p {margin-bottom: 10px;} 
+
+section img {width: 230px; height:auto; position: relative; left: 50%; margin-left: -115px;}
+
+
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+
+}
+
